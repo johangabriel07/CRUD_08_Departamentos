@@ -16,7 +16,10 @@ public class DepartamentoModel {
     @Column(name = "localizacao_departamento")
     private String localizacao;
 
-    // Getters e Setters
+
+    public DepartamentoModel() {
+    }
+
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 
